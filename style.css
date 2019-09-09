@@ -1,10 +1,25 @@
 body 
 {
-    background-color: lightblue;
+    font-family: Verdana, Geneva, sans-serif; 
 }
   
 h1 
 {
+    font-size: 36px;
+    font-weight: bold;
     color: navy;
     margin-left: 20px;
+}
+
+p.normal
+{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+p.emphasize
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: gold
 }
