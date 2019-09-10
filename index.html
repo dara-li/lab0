@@ -1,24 +1,37 @@
+<!-- 
+Dara Li
+CS100 Fall 2019 Lab0
+index.html is the homepage of my overwatch guide, which has links to the three different subpages.
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Formatting setup: combination of my CSS and bootsrap-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--Title-->
         <title>Overwatch: Beginner's Guide to Support Characters</title>
+        
+        <!--Navbar from bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Overwatch</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="tank.html">Tank Heroes</a>
-                    <a class="nav-item nav-link" href="damage.html">Damage Heroes</a>
-                    <a class="nav-item nav-link" href="support.html">Support Heroes</a>
-                  </div>
+            <a class="navbar-brand" href="index.html">Overwatch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link" href="tank.html">Tank Heroes</a>
+                <a class="nav-item nav-link" href="damage.html">Damage Heroes</a>
+                <a class="nav-item nav-link" href="support.html">Support Heroes</a>
                 </div>
-              </nav>
+            </div>
+        </nav>
     </head>
     <body>
         <h1 style="margin-top:15px;">
@@ -28,6 +41,7 @@
             Welcome to the world of Overwatch, an online first-person shooter game built by <b>Activision Blizzard</b>. Whether you are an avid gamer and have several years of fps gaming under your belt, 
             learning a new game with 30+ heroes can be tricky. This guide serves to provide a quick look into the Blizzard world of Overwatch and how to pick a hero that fits your interests.
         </p>
+        <!--Image of full overwatch lineup with special caption-->
         <div class="text-center">
                 <img src="lineup.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
             </div>
@@ -42,6 +56,7 @@
         <p style="text-align: center;">
             There are three categories of heroes in Overwatch. Click on each to learn more.
         </p>
+        <!--Bootsrap cards for three different subpages-->
         <div class="card-deck" style="width: 95%; margin-left: auto; margin-right: auto;">
                 <div class="card">
                   <img src="tanks.jpg" class="card-img-top" alt="tank heroes photo">
@@ -71,11 +86,8 @@
     </body>
     <!-- Footer content -->
     <footer>
-        <nav class="navbar navbar-dark bg-dark" style="margin-top: 20px;">
-            <!-- Navbar content -->
-            <p style="color:white;">
-             All rights to Blizzard Entertainment</a>
-            </p> 
-        </nav>
-    </footer>
+            <nav class="navbar navbar-dark bg-dark" id="footer">
+                <p>All rights to Blizzard Entertainment</p> 
+            </nav>
+        </footer>
 </html>

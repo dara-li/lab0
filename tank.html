@@ -1,24 +1,37 @@
+<!-- 
+Dara Li
+CS100 Fall 2019 Lab0
+tank.html is a subpage of my overwatch guide, dives into tank heroes and uses a bootstrap table.
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Formatting setup: combination of my CSS and bootsrap-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--Title-->
         <title>Overwatch: Beginner's Guide to Support Characters</title>
+        
+        <!--Navbar from bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Overwatch</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="tank.html">Tank Heroes</a>
-                    <a class="nav-item nav-link" href="damage.html">Damage Heroes</a>
-                    <a class="nav-item nav-link" href="support.html">Support Heroes</a>
-                  </div>
-                </div>
-              </nav>
+          <a class="navbar-brand" href="index.html">Overwatch</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="tank.html">Tank Heroes</a>
+              <a class="nav-item nav-link" href="damage.html">Damage Heroes</a>
+              <a class="nav-item nav-link" href="support.html">Support Heroes</a>
+            </div>
+          </div>
+        </nav>
     </head>
     <body>
         <h1 style="margin-top: 15px;">Tank Heroes: The leaders of pushes</h1>
@@ -26,6 +39,8 @@
           Tanks specialize in protecting allies, disrupting enemies, and occupying the front line. They have high survivability and abilities that protect themselves and others with shields and crowd control.
           Tanks usually are targeted first, since players tend to shoot at their shields, and tanks are also less mobile to take healthpacks around the map. As such, tanks usually depend on healers to keep them alive.
         </p>
+        
+        <!--Image of full tank lineup with special caption-->
         <div class="text-center">
           <img src="tanks.jpg" class="img-fluid" alt="Responsive image" style="width: 560px;">
         </div>
@@ -40,62 +55,64 @@
           Since there are usually two tanks in a six-person team composition, the tank you choose to play also depends on the other tank player. Usually having at least one shield tank is beneficial. If there is already
           one shield tank in the composition, you could choose a more offensive type tank like D.Va, who has high HP but low defense abilities to aggressively push the enemy team.</p>
         <h2 style="text-align: center; margin-top: 15px;">Comparison of Tank Heroes</h2>
+        
+        <!--Table bootstrap formatted comparing different tank heroes-->
         <table class="table table-striped">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">Character</th>
-                <th scope="col">Origin</th>
-                <th scope="col">HP</th>
-                <th scope="col">Special Ability</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Zarya</td>
-                <td>Russian Defense Forces</td>
-                <td>200</td>
-                <td>Shield bubbles</td>
-              </tr>
-              <tr>
-                <td>Roadhog</td>
-                <td>Australian Outback</td>
-                <td>600</td>
-                <td>Hook</td>
-              </tr>
-              <tr>
-                <td>Winston</td>
-                <td>Horizon Lunar Colony</td>
-                <td>400</td>
-                <td>Shield bubble</td>
-              </tr>
-              <tr>
-                  <td>Orisa</td>
-                  <td>Nigerian defense robot</td>
-                  <td>200</td>
-                  <td>Shield</td>
-              </tr>
-              <tr>
-                  <td>Reinhardt</td>
-                  <td>German Knight</td>
-                  <td>300</td>
-                  <td>Shield</td>
-              </tr> 
-              <tr>
-                  <td>D.Va</td>
-                  <td>South Korean gamer</td>
-                  <td>550</td>
-                  <td>Defense matrix</td>
-              </tr>            
-            </tbody>
-          </table>
+           <!--Table headings (columns)-->
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Character</th>
+              <th scope="col">Origin</th>
+              <th scope="col">HP</th>
+              <th scope="col">Special Ability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--Table rows and content-->
+            <tr>
+              <td>Zarya</td>
+              <td>Russian Defense Forces</td>
+              <td>200</td>
+              <td>Shield bubbles</td>
+            </tr>
+            <tr>
+              <td>Roadhog</td>
+              <td>Australian Outback</td>
+              <td>600</td>
+              <td>Hook</td>
+            </tr>
+            <tr>
+              <td>Winston</td>
+              <td>Horizon Lunar Colony</td>
+              <td>400</td>
+              <td>Shield bubble</td>
+            </tr>
+            <tr>
+              <td>Orisa</td>
+              <td>Nigerian defense robot</td>
+              <td>200</td>
+              <td>Shield</td>
+            </tr>
+            <tr>
+              <td>Reinhardt</td>
+              <td>German Knight</td>
+              <td>300</td>
+              <td>Shield</td>
+            </tr> 
+            <tr>
+              <td>D.Va</td>
+              <td>South Korean gamer</td>
+              <td>550</td>
+              <td>Defense matrix</td>
+            </tr>            
+          </tbody>
+        </table>
     </body>
-        <!-- Footer content -->
+    
+    <!-- Footer content -->
     <footer>
-        <nav class="navbar navbar-dark bg-dark" style="margin-top: 20px;">
-            <!-- Navbar content -->
-            <p style="color:white;">
-             All rights to Blizzard Entertainment</a>
-            </p> 
+        <nav class="navbar navbar-dark bg-dark" id="footer">
+            <p>All rights to Blizzard Entertainment</p> 
         </nav>
     </footer>
 </html>
